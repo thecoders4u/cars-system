@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/drivercss.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+    <!--Script-->
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<div class="heading">
+    <h1>Driverless</h1>
+    <p>Into the Autonomous Age</p>
+</div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#"><form action="index.php" class="searchbox"><input id="searchval" type="text" name="text" placeholder="Search...">
+        <div class="result"></div>
+    </form></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Account</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Logout</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12 text-center navpadding">
+            <h1>This is the Contact Area</h1>
+            <h3>Where you can reach out to us</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-center temp navpadding">
+            <div class="innertemp" id="signupcon">
+                <h3>Our Frequently Asked Questions of Driverless Cars</h3>
+                    <div class="parts">
+                    <h4>Q: Are these cars secure?:</h4>
+                    <p>
+                     Of course they are secured, they are have been tested by several algorithms and trained with systems such are Deep Learning, by which in 2023 no security issue shall occur
+                    </p>
+                    <h4>Q: Can these vehicles be completely trusted?</h4>
+                    <p>
+                     It is still a process of verification, testing and trial as well some of products are still not reliable to be frank, but some are ready to be deployed and completely used
+                    </p>
+                    <h4>Q: What kind of accidents have occured?</h4>
+                    <p>
+                       Several Accidents have occured such as accidently bumping into a pedestrian, some of our earlier products where confused in road map directions
+                    </p>
+                    
+                
+            </div>
+                   
+                        <div class="parts">
+                            <h4>Q: How much fuel do these vehicles consume?</h4>
+                            <p>
+                                These vehicles are designed to not focus on fuel-consumption (prevent combustion and ozone layer damage), and rather are charged by electricity.
+                            </p>
+                            <h4>Q: Are they expensive</h4>
+                            <p>
+                                With the total costs in design and concept building, they are obviously expensive than manual(human-driven) vehicles
+                            </p>
+                            <h4>Q: What's the point of all this?</h4>
+                            <p>
+                                Our aim is to prohibit the number of accidents occuring world-wide, and taking control road systems in a structured and organised pattern
+                            </p>
+                        </div>
+                    <form id="send" onsubmit="View(event)">
+                        <button class="btn btn-primary">Still Send</button>
+                    </form>
+    </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 text-center temp navpadding">
+            <div class="innertemp" id="logincon">
+                <h3>Please ask any question which has not been answered already</h3>
+                <form id="login">
+                    <h4>Email:</h4>
+                    <p>
+                        <input type="email" placeholder="Email" class="contact-form">
+                    </p>
+                    <h4>Subject:</h4>
+                    <p>
+                        <input type="text" placeholder="Subject" class="question contact-form">
+                    </p>
+                    <h4>Question:</h4>
+                    <p>
+                        <input type="text" placeholder="Question" id="question" class="contact-form">
+                    </p>
+                    <p>
+                        <input type="submit" name="loginbtn" class="btn btn-primary">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="row bg-dark text-white text-center marginclass" style="margin-top: 5%;">
+        <div class="col-sm-4 realpadding"><h4>Keep touch with Us On:</h4>
+            <p>+265 1 444 5550 Or</p>
+            <ul class="iconlist">
+                <li class="icons"><img src="social1.png" title="Facebook" class="socialimg"></li>
+                <li class="icons"><img src="social2.png" title="Instagram" class="socialimg"></li>
+                <li class="icons"><img src="social3.png" title="Telegram" class="socialimg"></li>
+                <li class="icons"><img src="social4.png" title="Twitter" class="socialimg"></li>
+            </ul>
+        </div>
+        <div class="col-sm-4 realpadding"><h4>Subscribe for a Newsletter</h4>
+            <form id="signup">
+                <p>
+                    <input type="email" placeholder="Email" class="contact-form">
+                </p>
+                <p>
+                    <input type="submit" name="signupbtn" value="Subscribe!" class="btn btn-primary">
+                </p>
+            </form>
+        </div>
+        <div class="col-sm-4 realpadding">
+            <h4>Our Links:</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="js/driverjava.js"></script>
+</body>
+</html>
